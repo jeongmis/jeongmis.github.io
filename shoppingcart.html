@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+   
+    <head>
+        <title>Shopping Cart</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="shop, backery, pittsburgh">
+        <meta name="description" content="shop and explore the traditional cinnamon rolls in pittsburgh">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/shoppingCart.js"></script>
+    </head>
+    <body>
+        <main>
+            <header>
+                <a href="index.html">
+                    <img src="images/logo.png" id="logo">
+                </a>
+                <div class="clear"></div>
+            </header>
+            
+            <article>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Bun Bun's</a></li>
+                        <li><a href="products.html">products</a></li>
+                        <li><a href="locations.html">location</a></li>
+                        <li><a id="shoppingCartNav" href="shoppingcart.html"></a></li>
+                    </ul>
+                </nav>
+                <div></div> <!-- A divider line below the navigation -->    
+                <section class="main-content">
+                    <h3>Shopping Cart</h3>
+                    <p id="quantity">Quantity</p>
+                    <p class="placeholder"> This Shopping Cart is empty. Please add item to you shopping cart. </p>
+                    <div id = "list">
+
+                    </div>
+                </section>
+                
+                <aside class="sub-content">
+                    <div class="cart">
+                        <div class="cartPrice">
+                            <p>Subtotal(#items): $##.##</p>
+                        </div>
+                        <div class="proceed-to-checkout">
+                            <p>Proceed to Checkout</p>
+                        </div>
+                    </div>
+                    
+                </aside>
+                
+            </article>
+            
+            <footer class="clear">
+                <h2>Contact</h2>
+                <p>30 Bath Rd, Brunswick, ME 04011</p>
+                <p>(207) 844-3390</p>
+                <p><a href="locations.html">LEARN MORE ABOUT OUR LOCATION</a></p>
+                <img src="images/logo.png">
+                <div>
+                    <p class="copy">©2016 Bun Bun's Cake Shop. All rights reserved.</p>
+                </div>
+            </footer>
+            
+            <div class="clear"></div>
+            
+        </main>
+        
+    </body>
+    
+</html>
